@@ -1,54 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML Forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Basics</title>
 </head>
 <body>
-    <h1>HTML Forms</h1>
+    <h1>CSS Basics</h1>
 
-    <form>
-        <!-- using the for paramater in the label we link the label and the textbox together,
-        so when you click on the text enter username you can start writing in the textbox-->
-        <label for="username">Enter Username:</label> 
-        <input type="text" id = "username" name ="username" placeholder="username" required>
-        <br> <br>
-        <label for="email">Enter email:</label>
-        <input type="email" id = "email" name="email" placeholder="your email" required>
-        <br> <br>
-        <label for="password">Password:</label>
-        <input type="password" id = "poassword" name = "password" placeholder="choose a password" required>
+    <p>Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s
+        with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-        <p>Select your age:</p>
+    <div>
 
-        <input type="radio" name="age" value ="0-25" id="option1">
-        <label for="option1">0-25</label>
-        <input type="radio" name="age" value ="26-50" id="option2">
-        <label for="option2">26-50</label>
-        <input type="radio" name="age" value ="51+" id="option3">
-        <label for="option3">51+</label>
+    <h2>ninjas available to hire</h2>
 
-        <br> <br>
+    <p>Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s
+        with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-        <label for="question">Security Question: </label>
+        <ul>
+            <li>mario</li>
+            <li>yoshi</li>
+            <li>bowser</li>
+        </ul>
 
-        <select name="question" id="question">
-            <option value="q1">What color are your favourite socks?</option>
-            <option value="q2">What color are your favourite shirt?</option>
-            <option value="q3">What is your favourite security question?</option>
-        </select>
+    </div>
 
-        <br> <br>
-        <label for="answer">Security question answer:</label>
-        <input type="text" id="answer" name="answer">
 
-        <br> <br>
 
-        <label for="bio">Your bio:</label> <br>
-        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about..."></textarea>
-        <br><br>
-        <input type="submit" value = "submit the form">
-
-    </form>
 
 
 </body>
