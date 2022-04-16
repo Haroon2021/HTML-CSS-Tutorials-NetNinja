@@ -1,12 +1,73 @@
-span {
-    display: inline-block;
-    margin: 20px;
-    PADDING: 20PX;
+/* p.error {
+    color: red;
 }
 
-div {
-    /* display: inline; */
-    border: 2px solid crimson;
-    margin: 20px;
+p.success {
+    color: rgb(38, 209, 38);
+}
+
+p.success.feedback {
+    border: 1px dashed rgb(38, 209, 38);
+
+}
+
+#content {
+    background-color: #ebebeb;
     padding: 20px;
+} */
+
+/* with space looks for child ie div .erro */
+/* div .error{
+    color: red;
+} */
+/* 
+without space looks for the parent ie div.error */
+/* div.error{
+    color: rgb(0, 255, 98);
+}
+
+
+a[href]{
+    background-color: #3dd13d;
+} */
+
+/* a[href="http://www.thenetninja.co.uk"]{
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* the * means that the href must include the words thenetninja */
+/* a[href*="thenetninja"]{
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* any href ending with a $ will be formatted as below: */
+/* a[href$=".com"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+div {
+    color: lightcoral;
+    border: solid 1px grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p{
+    color: orange;
 }
