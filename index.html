@@ -2,53 +2,48 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-    <title >CSS Basics</title>
+    <title >Marioclub</title>
 </head>
 <body>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
 
-    <div id = "content">
-        this text will have the color from the div tag
-        <p class="success">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries,
-            but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software
-            like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p class ="success feedback">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries,
-            but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software
-            like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p class="error">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries,
-            but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software
-            like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
+    <section class="banner">
+        <img src="img/banner.png" alt="marioclub welcome banner">
+        <div class ="welcome">
+            <h2>Welcome to the <br><span>Marioclub</span></h2>
+        </div>
+    </section>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam ipsa labore eligendi, asperiores neque iure assumenda odit sit deleniti est culpa. Tenetur molestias quidem voluptatibus, voluptas excepturi repellendus ullam.
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html">Latest news</a></li>
+            <li><a href="/games.html">New Games</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>It's a me, Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias dignissimos labore assumenda explicabo, cumque neque magni animi ipsum laborum ea quidem amet maiores est vero! Soluta, explicabo! Inventore, dolor! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste saepe rerum quo quod quaerat quas velit ab, accusamus modi officiis ea. Atque sed odio deserunt quod ab quis. Itaque, ipsa.</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="mario thumb 1"></li>
+            <li><img src="img/thumb-2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
 
-    </p>
-
-    <div class='error'>Here is a div tag</div>
-
-    <a href="http://www.thenetninja.co.uk">The Net Ninja</a>
-    <a href="http://www.google.com">google</a>
-    <a href="http://www.thenetninja.co.uk">The Net Ninja</a>
-
+    <section class="join"> 
+        <h2>Join today!</h2>
+        <p>Rand text</p>
+        <form>
+            <input type="email" name="email" placeholder="Type in email and hit enter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright"> Copyright Mario 2019</p>
+    </footer>
 </body>
 </html>
