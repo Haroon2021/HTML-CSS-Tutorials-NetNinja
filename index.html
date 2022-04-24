@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title >Marioclub</title>
 </head>
 <body>
-    <h1>HTML Forms</h1>
+    <header>
+        <h1>Marioclub</h1>
+    </header>
 
-    <form>
-        <!-- using the for paramater in the label we link the label and the textbox together,
-        so when you click on the text enter username you can start writing in the textbox-->
-        <label for="username">Enter Username:</label> 
-        <input type="text" id = "username" name ="username" placeholder="username" required>
-        <br> <br>
-        <label for="email">Enter email:</label>
-        <input type="email" id = "email" name="email" placeholder="your email" required>
-        <br> <br>
-        <label for="password">Password:</label>
-        <input type="password" id = "poassword" name = "password" placeholder="choose a password" required>
+    <section class="banner">
+        <img src="img/banner.png" alt="marioclub welcome banner">
+        <div class ="welcome">
+            <h2>Welcome to the <br><span>Marioclub</span></h2>
+        </div>
+    </section>
 
-        <p>Select your age:</p>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html">Latest news</a></li>
+            <li><a href="/games.html">New Games</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>It's a me, Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias dignissimos labore assumenda explicabo, cumque neque magni animi ipsum laborum ea quidem amet maiores est vero! Soluta, explicabo! Inventore, dolor! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste saepe rerum quo quod quaerat quas velit ab, accusamus modi officiis ea. Atque sed odio deserunt quod ab quis. Itaque, ipsa.</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="mario thumb 1"></li>
+            <li><img src="img/thumb-2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
 
-        <input type="radio" name="age" value ="0-25" id="option1">
-        <label for="option1">0-25</label>
-        <input type="radio" name="age" value ="26-50" id="option2">
-        <label for="option2">26-50</label>
-        <input type="radio" name="age" value ="51+" id="option3">
-        <label for="option3">51+</label>
-
-        <br> <br>
-
-        <label for="question">Security Question: </label>
-
-        <select name="question" id="question">
-            <option value="q1">What color are your favourite socks?</option>
-            <option value="q2">What color are your favourite shirt?</option>
-            <option value="q3">What is your favourite security question?</option>
-        </select>
-
-        <br> <br>
-        <label for="answer">Security question answer:</label>
-        <input type="text" id="answer" name="answer">
-
-        <br> <br>
-
-        <label for="bio">Your bio:</label> <br>
-        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about..."></textarea>
-        <br><br>
-        <input type="submit" value = "submit the form">
-
-    </form>
-
-
+    <section class="join"> 
+        <h2>Join today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et, vel minima quae fugiat rerum ab soluta debitis aliquid, totam veritatis natus numquam quod quam architecto quidem cumque consectetur nesciunt!</p>
+        <form>
+            <input type="email" name="email" placeholder="Type in email and hit enter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright"> Copyright Mario 2019</p>
+    </footer>
 </body>
 </html>
